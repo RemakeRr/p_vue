@@ -1,13 +1,18 @@
 <template lang="pug">
   .t-container
-    .row.justify-content-md-center
+    .row
       .col-md-4
         .soc
-          img(src="img/soc/behance.svg" height=35 width=auto).soc__i.soc__i-be
-          img(src="img/soc/github.svg" height=35 width=auto).soc__i.soc__i-be
-          img(src="img/soc/vk.svg" height=35 width=auto).soc__i.soc__i-be
-          img(src="img/soc/instagram.svg" height=35 width=auto).soc__i.soc__i-be
-          img(src="img/soc/mail.svg" height=35 width=auto).soc__i.soc__i-be
+          a(href="https://www.behance.net/remakerr" target="blank")
+            img(src="img/soc/behance.svg" height=35 width=auto)
+          a(href="https://github.com/RemakeRr" target="blank")
+            img(src="img/soc/github.svg" height=35 width=auto)
+          a(href="https://vk.com/bigremake" target="blank")
+            img(src="img/soc/vk.svg" height=35 width=auto)
+          a(href="https://www.instagram.com/lbklbkk/" target="blank")
+            img(src="img/soc/instagram.svg" height=35 width=auto)
+          a(href="mailto:muxumov0087@gmail.com")
+            img(src="img/soc/mail.svg" height=35 width=auto)
 
 </template>
 

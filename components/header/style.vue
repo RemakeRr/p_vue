@@ -6,8 +6,10 @@
 $black: #1F1F1F
 $blue: #1789FC
 $white: #ffffff
+$grey: #777879
 
 header
+  padding-top: 100px
   width: 100%
   height: 100vh
   color: $white
@@ -16,6 +18,7 @@ header
   justify-content: center
   align-items: center
   flex-direction: column
+  user-select: none
 .header
   &__img
     height: 100%
@@ -27,6 +30,7 @@ header
     left: 0
     right: 0
     bottom: 0
+    user-select: none
   &__h1
     z-index: 1
     margin: 0
