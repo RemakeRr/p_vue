@@ -22,13 +22,21 @@ module.exports = {
       { rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-icon-72x72.png' },
       { rel: 'apple-touch-icon', sizes: '114x114', href: '/apple-icon-114x114.png' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-grid.min.css' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css' }
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css' },
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css' }
+    ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js'}
     ]
   },
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#1789FC' },
+  loading: {
+    color: '#1789FC',
+    height: '5px',
+    failedColor: '#FA709A'
+  },
   /*
   ** Build configuration
   */
