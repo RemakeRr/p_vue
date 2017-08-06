@@ -2,11 +2,12 @@
   .t-container
     header-style
     header
-      img(src="img/header/headerbg.png").header__img
-      h1.header__h1 Приветствую
-      h2.header__h2 Меня зовут Алибек. Занимаюсь frontend-разработкой и веб-дизайном
-      Social
-      ButtonContact
+      .header
+        img(src="img/header/headerbg.jpg").header__img
+        h1.header__h1 Приветствую
+        h2.header__h2 Меня зовут Алибек. Занимаюсь frontend-разработкой </br> и веб-дизайном
+        Social
+        ButtonContact
 
 </template>
 

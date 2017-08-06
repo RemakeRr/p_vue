@@ -1,4 +1,4 @@
-<template lang="pug">
+<template lang="pug" scoped>
   .t-container
 </template>
 
@@ -10,8 +10,9 @@ $grey: #777879
 
 header
   padding-top: 100px
+  padding-bottom: 20vh
   width: 100%
-  height: 100vh
+  height: 120vh
   color: $white
   position: relative
   display: flex
@@ -19,7 +20,13 @@ header
   align-items: center
   flex-direction: column
   user-select: none
+  background-color: black
 .header
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  text-align: center
   &__img
     height: 100%
     width: 100%
@@ -30,6 +37,7 @@ header
     left: 0
     right: 0
     bottom: 0
+    opacity: 0.5
     user-select: none
   &__h1
     z-index: 1

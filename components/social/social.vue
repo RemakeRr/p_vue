@@ -1,4 +1,4 @@
-<template lang="pug">
+<template lang="pug" scoped>
   .t-container
     .row
       .col-md-4

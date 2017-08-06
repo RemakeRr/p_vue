@@ -19,6 +19,7 @@ $grey: #777879
   display: flex
   justify-content: space-between
   align-items: center
+  box-shadow: 0px 3px 30px 0px rgba(31,31,31,0.29)
   &-a
     text-decoration: none
     transition: .2s all
@@ -58,7 +59,7 @@ $grey: #777879
 .nav__ava
   height: 70px
   width: 70px
-  border-radius: 5px
+  border-radius: 40px
   object-fit: cover
 
 </style>
