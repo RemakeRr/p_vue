@@ -1,8 +1,22 @@
 <template>
   <div>
+    <HeaderNav></HeaderNav>
     <nuxt/>
+    <Footer></Footer>
   </div>
 </template>
+
+<script>
+import Footer from '~components/footer/footer.vue'
+import HeaderNav from '~components/headernav/headernav.vue'
+
+export default {
+  components: {
+    Footer,
+    HeaderNav
+  }
+}
+</script>
 
 <style lang="sass">
 $black: #1F1F1F

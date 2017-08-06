@@ -1,20 +1,20 @@
 <template lang="pug">
   .t-container
-    HeaderNav
     HeaderMain
     Services
+    Footer
 </template>
 
 <script>
-import HeaderNav from '~components/headernav/headernav.vue'
 import HeaderMain from '~components/header/headermain.vue'
 import Services from '~components/services/services.vue'
+import Footer from '~components/footer/footer.vue'
 
 export default {
   components: {
-    HeaderNav,
     HeaderMain,
-    Services
+    Services,
+    Footer
   }
 }
 </script>

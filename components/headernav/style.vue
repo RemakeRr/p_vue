@@ -1,6 +1,5 @@
 <template lang="pug">
   .t-container
-    colors
 </template>
 
 <style lang="sass">
