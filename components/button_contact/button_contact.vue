@@ -19,7 +19,7 @@ button
   border-color: transparent
   border-radius: 15px
   box-shadow: 0 5px 15px 0px $blue
-  transition: all .2s
+  transition: all .3s
   font-weight: 600
   cursor: pointer
   outline: none

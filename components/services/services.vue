@@ -17,7 +17,7 @@
                 p Минималистичный, чистый дизайн в соответствии с последними трендами. Это делает проекты очень приятными и удобными для восприятия.
           .col-md-6.offset-md-1
             .row
-              img(src="img/services/services.gif").services__img
+              img(src="img/services/services.jpg").services__img
 
 </template>
 

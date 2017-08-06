@@ -37,8 +37,9 @@ header
     left: 0
     right: 0
     bottom: 0
-    opacity: 0.5
+    filter: blur(3px) brightness(70%)
     user-select: none
+    background-color: black
   &__h1
     z-index: 1
     margin: 0

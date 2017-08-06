@@ -57,9 +57,14 @@ $grey: #777879
     justify-content: space-between
     align-items: center
 .nav__ava
-  height: 70px
-  width: 70px
+  height: 60px
+  width: 60px
   border-radius: 40px
   object-fit: cover
+  transition: all 0.3s
+  cursor: pointer
+  &:hover
+    border-color: #808080
+    filter: brightness(70%)
 
 </style>
