@@ -12,7 +12,7 @@ header
   padding-top: 100px
   padding-bottom: 20vh
   width: 100%
-  height: 120vh
+  height: 115vh
   color: $white
   position: relative
   display: flex

@@ -15,25 +15,28 @@ $grey: #777879
     justify-content: flex-start
     align-items: center
   &_grid
-    padding: 0 8%
+    width: 100%
     margin-top: 60px
     display: flex
     flex-flow: row wrap
     &-w
       width: 300px
-      height:
       flex: auto
       margin: 30px 15px
+      transition: all 0.3s
+      &:hover
+        transform: scale(1.1)
+        filter: brightness(%)
+        box-shadow: 0px 3px 30px 0px rgba(31,31,31,0.70)
       & img
         z-index: 1
         width: 100%
         height: 100%
         object-fit: cover
         filter: brightness(100%)
-        transition: all 0.3s
+        transition: all 0.25s
         &:hover
-          transform: scale(1.1)
-          filter: brightness(40%)
+
 .round
   width: 30px
   height: 30px
