@@ -2,18 +2,18 @@
   <div>
     <HeaderNav></HeaderNav>
     <nuxt/>
-    <FooterMain></FooterMain>
+    <FooterNav></FooterNav>
   </div>
 </template>
 
 <script>
 import HeaderNav from '~components/headernav/headernav.vue'
-import FooterMain from '~components/footer/footer.vue'
+import FooterNav from '~components/footernav/footernav.vue'
 
 export default {
   components: {
     HeaderNav,
-    FooterMain
+    FooterNav
   }
 }
 </script>

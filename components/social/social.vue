@@ -22,6 +22,7 @@
   height: 35px
   display: flex
   justify-content: space-between
-  margin-bottom: 80px
+  margin-top: 30px
+  margin-bottom: 30px
 
 </style>

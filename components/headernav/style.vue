@@ -13,7 +13,7 @@ $grey: #777879
   z-index: 99
   width: 100%
   height: 100px
-  padding: 0 10%
+  padding: 0 110px
   background: $white
   display: flex
   justify-content: space-between

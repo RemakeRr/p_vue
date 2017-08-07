@@ -47,5 +47,5 @@ header
     z-index: 1
     font-weight: normal
     margin-top: 60px
-    margin-bottom: 80px
+    margin-bottom: 50px
 </style>
