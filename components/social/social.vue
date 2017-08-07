@@ -17,6 +17,10 @@
 </template>
 
 <style lang="sass">
+$black: #1F1F1F
+$blue: #1789FC
+$white: #ffffff
+$grey: #777879
 .soc
   width: 370px
   height: 35px
