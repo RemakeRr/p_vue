@@ -11,16 +11,29 @@ $grey: #777879
 .works
   padding: 60px 0
   &-top
-    margin-bottom: 60px
     display: flex
     justify-content: flex-start
     align-items: center
-  & img
-    width: 100%
-    height: 400px
+  &_grid
+    padding: 0 8%
     margin-top: 60px
-    object-fit: cover
-
+    display: flex
+    flex-flow: row wrap
+    &-w
+      width: 300px
+      height:
+      flex: auto
+      margin: 30px 15px
+      & img
+        z-index: 1
+        width: 100%
+        height: 100%
+        object-fit: cover
+        filter: brightness(100%)
+        transition: all 0.3s
+        &:hover
+          transform: scale(1.1)
+          filter: brightness(40%)
 .round
   width: 30px
   height: 30px
