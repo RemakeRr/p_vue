@@ -20,6 +20,9 @@
   export default {
     components: {
       HeaderNavStyle
+    },
+    data: {
+      navmenu: true
     }
   }
 </script>

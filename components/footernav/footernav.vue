@@ -2,16 +2,21 @@
   .t-container
     StyleFoot
     footer
-      .footer_btn
-        a(href="/")
-          button На главную
-        a(href="/")
-          button Работы
-        a(href="/")
-          button Контакты
-        a(href="/")
-          button Ресурсы
-      Social
+      .container
+        .row
+          .col-md-12
+            .footer_btn
+              a(href="/")
+                button На главную
+              a(href="/")
+                button Работы
+              a(href="/")
+                button Контакты
+              a(href="/")
+                button Ресурсы
+          .col-md-12
+            .footer_soc
+              Social
 
 </template>
 

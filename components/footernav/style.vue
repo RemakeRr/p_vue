@@ -21,11 +21,16 @@ footer
   width: 100%
   display: flex
   flex-wrap: wrap
-  justify-content: space-between
+  justify-content: space-around
   align-items: center
   margin-bottom: 30px
   & a
-    flex-basis: 270px
+    flex-basis: 200px
+.footer_soc
+  width: 100%
+  display: flex
+  justify-content: center
+  align-items: center
 button
   width: 240px
   height: 35px
