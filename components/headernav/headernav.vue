@@ -21,8 +21,10 @@
     components: {
       HeaderNavStyle
     },
-    data: {
-      navmenu: true
+    data: function () {
+      return {
+        show: true
+      }
     }
   }
 </script>

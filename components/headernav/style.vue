@@ -65,5 +65,16 @@ $grey: #777879
   &:hover
     border-color: #808080
     filter: brightness(70%)
+  &-min
+    position: fixed
+    z-index: 100
+    height: 200px
+    width: 100px
+    background-color: $blue
+
+.slide-enter-active, .slide-leave-active
+  transition: all .3s ease
+.slide-enter, .slide-leave-active
+  left: -100%
 
 </style>
