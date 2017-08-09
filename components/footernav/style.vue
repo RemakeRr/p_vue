@@ -48,4 +48,48 @@ button
     color: $blue
     box-shadow: 0 5px 15px 0px white
 
+/*==========  Desktop First  ==========
+/* Large Devices, Wide Screens
+@media only screen and (max-width: 1200px)
+  .footer_btn
+    display: none
+
+/* Medium Devices, Desktops
+@media only screen and (max-width: 992px)
+  /**/
+
+/* Small Devices, Tablets
+@media only screen and (max-width: 768px)
+  .footer_soc
+    display: none
+
+/* Extra Small Devices, Phones
+@media only screen and (max-width: 576px)
+  /**/
+
+/* Custom, iPhone Retina
+@media only screen and (max-width: 320px)
+  /**/
+
+/*==========  Mobile First  ==========
+/* Custom, iPhone Retina
+@media only screen and (min-width: 320px)
+  /**/
+
+/* Extra Small Devices, Phones
+@media only screen and (min-width: 576px)
+  /**/
+
+/* Small Devices, Tablets
+@media only screen and (min-width: 768px)
+  /**/
+
+/* Medium Devices, Desktops
+@media only screen and (min-width: 992px)
+  /**/
+
+/* Large Devices, Wide Screens
+@media only screen and (min-width: 1200px)
+  /**/
+
 </style>

@@ -27,11 +27,11 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-grid.min.css' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/element-ui/1.4.1/theme-default/index.css' }
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/element-ui/1.4.1/theme-default/index.css' },
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' }
     ],
     script: [
-      {src: 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js'},
-      {src: 'https://cdnjs.cloudflare.com/ajax/libs/element-ui/1.4.1/index.js'}
+      {src: 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js'}
     ]
   },
   /*

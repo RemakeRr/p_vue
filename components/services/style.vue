@@ -33,4 +33,47 @@ $grey: #777879
   border-radius: 15px
   box-shadow: 0px 5px 10px 0px rgba(23,137,252,1)
   margin-left: 60px
+
+/*==========  Desktop First  ==========
+/* Large Devices, Wide Screens
+@media only screen and (max-width: 1200px)
+  /**/
+
+/* Medium Devices, Desktops
+@media only screen and (max-width: 992px)
+  /**/
+
+/* Small Devices, Tablets
+@media only screen and (max-width: 768px)
+  .services__img
+    display: none
+
+/* Extra Small Devices, Phones
+@media only screen and (max-width: 576px)
+  /**/
+
+/* Custom, iPhone Retina
+@media only screen and (max-width: 320px)
+  /**/
+
+/*==========  Mobile First  ==========
+/* Custom, iPhone Retina
+@media only screen and (min-width: 320px)
+  /**/
+
+/* Extra Small Devices, Phones
+@media only screen and (min-width: 576px)
+  /**/
+
+/* Small Devices, Tablets
+@media only screen and (min-width: 768px)
+  /**/
+
+/* Medium Devices, Desktops
+@media only screen and (min-width: 992px)
+  /**/
+
+/* Large Devices, Wide Screens
+@media only screen and (min-width: 1200px)
+  /**/
 </style>
